@@ -1,0 +1,43 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "expo": "^32.0.6",
+    "kelvin-to-celsius": "^1.1.0",
+    "moment": "^2.24.0",
+    "native-base": "^2.12.0",
+    "prop-types": "^15.7.2",
+    "react": "16.5.0",
+    "react-animated-weather": "^2.0.0",
+    "react-moment": "^0.8.4",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-button": "^2.3.0",
+    "react-native-canvas": "^0.1.30",
+    "react-native-card-flip": "^1.0.4",
+    "react-native-elements": "^1.1.0",
+    "react-native-global-font": "^1.0.2",
+    "react-native-modalbox": "^1.7.1",
+    "react-native-navigation": "^2.13.1",
+    "react-native-paper": "^2.12.0",
+    "react-native-slider": "^0.11.0",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^3.3.2",
+    "react-navigation-material-bottom-tabs": "^1.0.0",
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0"
+  },
+  "private": true,
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
+}
